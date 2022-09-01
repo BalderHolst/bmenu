@@ -10,12 +10,13 @@ static const char *fonts[] = {
 	"System San Francisco:size=11"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#ebdbb2", "#282828" },
+	[SchemeNorm] = { "#ebdbb2", "#282828"},
 	[SchemeSel] = { "#222222", "#98971a" },
-	[SchemeSelHighlight] = { "#ffc978", "#98971a" },
-	[SchemeNormHighlight] = { "#ffc978", "#282828" },
+	[SchemeSelHighlight] = { "#9a2f84", "#98971a" },
+	[SchemeNormHighlight] = { "#98971a", "#282828" },
 	[SchemeOut] = { "#ebdbb2", "#8ec07c" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
